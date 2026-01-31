@@ -1,2 +1,12 @@
 2026-01-31 07:55:41.377083 INFO Placing order: BTCUSDT BUY MARKET 0.001 None
 2026-01-31 07:55:41.377106 INFO Order response: {'orderId': 12345, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '30000'}
+2026-01-31 14:05:55,025 INFO Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-01-31 14:05:55,026 ERROR API Secret required for private endpoints
+2026-01-31 14:11:04,232 INFO Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-01-31 14:11:04,233 ERROR API Secret required for private endpoints
+2026-01-31 14:43:19,656 INFO Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-01-31 14:43:20,274 ERROR APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-01-31 14:44:20,904 INFO Placing order: BTCUSDT BUY MARKET 0.002 None
+2026-01-31 14:44:21,425 INFO Order response: {'orderId': 12052730943, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'CaITn8TZfFLAst54ks9v6f', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1769850861225}
+2026-01-31 14:44:52,460 INFO Placing order: BTCUSDT BUY LIMIT 0.002 60000.0
+2026-01-31 14:44:53,149 INFO Order response: {'orderId': 12052734547, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'zFjyKKI7FPwMogeHeBns1V', 'price': '60000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1769850892951}
